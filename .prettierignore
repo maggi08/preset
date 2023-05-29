@@ -1,0 +1,11 @@
+**/.git
+**/.svn
+**/.hg
+**/.hbs
+**/.helm
+**/node_modules
+**/sitespeed-result
+**/statoscope-result
+**/dist
+**/.nuxt
+*.hbs
