@@ -13,12 +13,7 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     semi: ['error', 'always'],
-    'vue/multi-word-component-names': [
-      'error',
-      {
-        ignores: ['index'],
-      },
-    ],
+    'vue/multi-word-component-names': 'off',
   },
   // eslint-disable-next-line semi
 };
