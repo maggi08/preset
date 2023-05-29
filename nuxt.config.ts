@@ -10,4 +10,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      title: 'Lokoplane - авиабилеты',
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      meta: [{ name: 'description', content: 'My amazing site.' }],
+    },
+  },
 });
