@@ -10,6 +10,15 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue'],
-  rules: { 'comma-dangle': ['error', 'always-multiline'] },
+  rules: {
+    'comma-dangle': ['error', 'always-multiline'],
+    semi: ['error', 'always'],
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['index'],
+      },
+    ],
+  },
   // eslint-disable-next-line semi
 };
